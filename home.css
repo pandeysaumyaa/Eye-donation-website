@@ -1,0 +1,33 @@
+#home{
+    width: 100px;
+}
+.box{
+    
+    border: 1px solid white; 
+    max-width: 50px;
+    max-height: 50px; 
+    padding: 10px;
+    line-height: 50px; 
+    text-align: center; 
+    font-size: 1.63em;
+}
+
+#One{
+    
+    float: left; 
+}
+
+#Two{
+    float: left; 
+    position: relative; 
+    top: 75px; 
+}
+.text-block {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}

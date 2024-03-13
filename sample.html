@@ -1,0 +1,281 @@
+<html>
+
+<head>
+    <title>DEMO2</title>
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+        }
+
+        .body::before {
+            content: "";
+            background-image: url(images.jpg);
+            background-repeat: no-repeat;
+            background-size: 1440px 840px;
+            opacity: 0.6;
+        }
+
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        button {
+            border: none;
+            border-radius: 5px;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown-options {
+            display: none;
+            position: absolute;
+            overflow: auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+        }
+
+        .dropdown:hover .dropdown-options {
+            display: block;
+        }
+
+        .dropdown-options a {
+            display: block;
+            color: #000000;
+            padding: 5px;
+            text-decoration: none;
+            padding: 20px 40px;
+        }
+
+        .dropdown-options a:hover {
+            color: #0a0a23;
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+        #main {
+            width: 80px;
+            float: left;
+            height: 420px;
+            padding: 100px;
+            border: 1px solid palevioletred;
+            border-radius: 10px;
+            background-color: #dff2f5;
+            margin-top: 180px;
+            margin-left: 100px;
+        }
+
+        #name {
+            margin: 0;
+            position: absolute;
+            top: 198px;
+            left: 270px;
+        }
+
+        #name2 {
+            margin: 0;
+            position: absolute;
+            top: 198px;
+            left: 662px;
+        }
+
+        #name3 {
+            margin: 0;
+            position: absolute;
+            top: 198px;
+            left: 1020px;
+        }
+
+        #name4 {
+            margin: 0;
+            position: absolute;
+            top: 1000px;
+            left: 225px;
+        }
+
+        #name5 {
+            margin: 0;
+            position: absolute;
+            top: 1000px;
+            left: 645px;
+        }
+
+        #info1 {
+            margin-top: 159px;
+            left: 16%;
+            position: absolute;
+            padding-right: 975.8px;
+        }
+
+        #info2 {
+            margin-top: 159px;
+            left: 42.5%;
+            position: absolute;
+            padding-right: 584px;
+        }
+
+        #info3 {
+            margin-top: 157px;
+            left: 69%;
+            position: absolute;
+            padding-right: 191px;
+        }
+
+        #info4 {
+            margin-top: 125px;
+            left: 16%;
+            position: absolute;
+            padding-right: 955px;
+        }
+
+        #info5 {
+            margin-top: 125px;
+            left: 42.5%;
+            position: absolute;
+            padding-right: 584px;
+        }
+
+        #img {
+            margin: 0;
+            position: absolute;
+            top: 35%;
+            left: 230px;
+        }
+
+        #pics2 {
+            margin: 0;
+            position: absolute;
+            top: 28.5%;
+            left: 612px;
+        }
+
+        #pics3 {
+            margin: 0;
+            position: absolute;
+            top: 28.5%;
+            left: 994px;
+        }
+
+        #pics4 {
+            margin: 0;
+            position: absolute;
+            top: 124.5%;
+            left: 230px;
+        }
+
+        #pics5 {
+            margin: 0;
+            position: absolute;
+            top: 125.7%;
+            left: 612px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown" style="height: 51px";>
+        <button>Menu</button>
+        <div class="dropdown-options">
+            <a href="https://www.nmims.edu/">Dashboard</a>
+            <a href="https://www.nmims.edu/contact">Contact us</a>
+            <a href="https://www.nmims.edu/admission">admission</a>
+        </div>
+    </div>
+    <div>
+
+        <div id="main">
+            <a href="https://www.apollohospitals.com/organ-donation/"></a>
+            <div>
+                <font face="arial" size="5" id="name">Apollo Hospital</font>
+                <a href="https://www.apollohospitals.com/organ-donation/"><img id="img" src="apollo.jpg" height="200px"
+                        width="250px" alt="not found"></a>
+            </div>
+            <p id="info1"><b>Apollo Hospital</b> Mumbai is best hospital in Navi Mumbai which is one of the most
+                advanced
+                Multi-Speciality Quaternary Care hospitals. The hospital offers comprehensive and integrated super
+                specialty
+                services under one roof. Apollo Hospitals is the best hospital in Navi Mumbai because of a team of
+                renowned
+                expert consultants to provide people easy access to advanced technologies for precise diagnosis and
+                treatment.
+                The facility is accredited by Joint Commission International (JCI). It also provides advanced
+                personalized
+                health check programs which are tailor-made to individuals’ lifestyle requirements.</p>
+        </div>
+        <div id="main">
+            <a href="https://mgmeye.org/donation.php"></a>
+            <div>
+                <font face="arial" size="5" id="name2">Mgm Hospital</font>
+                <a href="https://mgmeye.org/donation.php"><img src="mgm.jpg" height="200px" width="250px"
+                        alt="not found" id="pics2"></a>
+            </div>
+            <p id="info2"><b>Mahatma Gandhi Mission(MGM)</b> is one of the most advanced multispecialty tertiary care
+                centres
+                in the heart of NaviMumbai in India.Since 1993,the hospital has experienced rapid growth to become a key
+                player
+                in the healthcare sector of this up-coming satellite city.Its a technologically advanced institution
+                designed to
+                international standards and most stringent criteria in infrastructure,medical care,fire-safety
+                norms,environmental guidelines because every element that comprises the hospital’s making,from the
+                premises,to it's
+                professionals,contributes to the overriding principle: Respect for patient & their families.</p>
+        </div>
+        <div id="main">
+            <a href="https://navimumbai.kokilabenhospital.com/"></a>
+            <div>
+                <font face="arial" size="5" id="name3">Kokilaben Hospital</font>
+                <a href="https://navimumbai.kokilabenhospital.com/"><img src="kokilaben.jpg" height="200px"
+                        width="250px" alt="not found" id="pics3"></a>
+            </div>
+            <p id="info3"><b>Kokilaben Dhirubhai Ambani Hospital</b>,a super specialty care hospital in Navi
+                Mumbai, is a proud milestone and towards commitment to quality healthcare.A hospital's first and
+                foremost
+                job is to heal people and save them from future harm.Here they
+                take innumerable steps to create a safe and healthy environment for patients.They aim to provide
+                patients
+                with the highest quality of treatment and the utmost level of safety.Safety and quality here is the
+                mandate of the Department of Clinical Quality and aim to deliver
+                complete safety involves doctors, nurses, therapists, patients and their families.The staff at KDAH
+                ,follows international protocols to ensure patient safety.</p>
+        </div>
+        <div id="main">
+            <a href="https://www.visionmate.org/"></a>
+            <div>
+                <font face="arial" size="5" id="name4">Visionmate Organisation</font>
+                <a href="https://www.visionmate.org/"><img src="vissionmate.jpg" height="200px" width="250px"
+                        alt="not found" id="pics4"></a>
+            </div>
+            <p id="info4"><b>VisionMate Foundation</b> is a Not for Profit organization aimed at automation of Eye Donation
+                Campaigning Process resulting in building a Eye Donor Registry and funding of Eye Transplant Surgeries.
+                We are adopting a technology based approach to reach out to the people by automating the campaign and
+                donor registration processes. The current methods at large have the donor’s online registration
+                processes but have not used any software platform to automate the campaigning processes.</p>
+        </div>
+        <div id="main">
+            <a href="https://www.missionforvision.org.in/about"></a>
+            <div>
+                <font face="arial" size="5" id="name5">Mission for Vision</font>
+                <a href="https://www.missionforvision.org.in/about"><img src="mission.jpg" height="170px" width="250px"
+                        alt="not found" id="pics5"></a>
+            </div>
+            <p id="info5"><b>Mission for Vision(MFV)</b> is among the larger NGOs working to eradicate
+                avoidable blindness across the country. It does so by enabling high-quality, comprehensive eye care to
+                the most disadvantaged communities; human resource development; research; and policy engagement in
+                India, Nigeria, and Bhutan.Blindness is largely a consequence of poverty and people with visual impairment are more
+                likely to become economically challenged if eye care is inaccessible.The certainty that eradicating
+                avoidable blindness enhances productivity and leads to social and economic equality powered MFV to
+                provide the underprivileged communities with access to the right treatment at the right time.</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #bc8f8f;
+  padding: 1px;
+  text-align:;
+  hight:8px
+}
+img {
+  margin-right: 290px;
+}
+#1{
+  margin-left: 90px;
+}
+a:link {color:blue;text-color:white;background-color:#bc8f8f}
+a:visited {color:black}
+a:hover {color:black;background-color:grey}
+a:active {color:white}
+.head{color:rgb(208,208,208)}
+.@:link{background-color:#ddd;}
+h2{
+width: 98%;
+height:3%;
+padding: 8px;
+border:  solid white;
+margin-top: 0%;
+word-spacing:120px;}
+.responsive {
+  width: 90%;
+  height: auto;
+}
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+  border-radius: 50%;
+}
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+
+.mySlides {
+  display: none;
+  padding:80px;
+  text-align: center;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 3px;
+  padding: 6px;
+  color: #72A0C1;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+q {font-style: italic;}
+.footer {
+  background-color: #ddd;
+  padding: 10px;
+  text-align: right;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><p style="color:white;">
+<img src='eye.jpg' width='70' height='70' style="vertical-align:middle"> 
+A world without vision is a grim prospect
+
+ </p>
+</h1>
+
+<h2>
+<a class="head" style="color:	white;" href="homefinal.html">Home</a>
+<a style="color:white;" href="aboutus.html">Aboutus</a>
+<a style="color:white;" href="registration.html">Registration</a>
+<a style="color:white;" href="location.html">Location</a>
+<a  style="color:white;" href="donatewithus.html">Donatewithus</a>
+<a style="color:white;" href="contactus.html">Contactus</a>
+<a style="color:white;" href="faq.html">FAQ</a>
+</h2>
+</div>
+<div class="slideshow-container">
+
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <q>We Specialize in Organ Donation and Transplantation Information and Education including Live Organ Donation, Kidney Pairing, Corneal Transplants, Organ Donation Enhancements, Organ Donation Concerns, Organ Donation Untruths, Organ Donation Criteria, Organ Donors Requirements, Organ Donation Centres.</q>
+  </div>
+
+  <div class="mySlides">
+    <q>Changing the way people think is only one facet of our mission. Our goal is to ensure that every one should know about eye donation and that everyone signs their donor cards.
+Together we can eradicate wait lists and save the lives of hundreds of people of all ages.</q>
+   
+  </div>
+
+  <div class="mySlides">
+    <q>By working with various media production agencies, we aim to deliver our message to the public through radio, television, film, print, and online advertising.</q>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<center><h3 style="font-size: 40px;">We are here to assist you to become an organ donar </h3></center>
+
+
+</div>
+<div class="row">
+  <div class="column">
+<img src="girl.jpg" alt="Avatar" style="width:30.33%">
+    <h3>Gayatri's story</h3>
+<p>Under our school eye health programme.Gayatri was identified with bilateral congential cataract and was referred to our partner hospital to restore her sight .Today, gayatri can see everything clerly and she has also become quite active in school activities.
+  </div>
+  
+  <div class="column">
+<img src="women2.jpg" alt="Avatar" style="width:33.33%">
+   <h3>Inji Bai & Kallu's story</h3>
+    <p>A few months back, Inju started having blurred vision in her right eye. She also developed sensitivity towards light. She started to recall Kalluâ€™s slow loss of his left eyeâ€™s vision a few years ago, when he was dealing with a similar problem. At the time, they had been really worried and unclear of what to do, but Kallu had been fortunate to find someone who had organised an eye screening camp for cost free. After being told he had cataract, Kallu underwent surgery without having to pay for it out of his pocket, which was a huge relief for him. Inji was experiencing the same problems that Kallu had encountered.</p>
+  </div>
+  
+  <div class="column">
+<img src="man.jpg" alt="Avatar" style="width:33.33%">
+    <h3>"That was amit, he always wanted to help people"</h3>
+    <p>Saturday, May 7, marks exactly five years since a remarkable young man passed away. Russell Beasley battled a rare genetic illness until his death at just 20 years of age. However, his kindness, selflessness, and desire to help others continues to make an immeasurable difference in peopleâ€™s lives every day.
+
+For those who knew him, the memories of an outgoing, good, generous and kind person are still very much alive. â€œHe never met a stranger â€” even as a little boy,â€ says his mother, Sherri Dalton. â€œHe was funny and liked joking around. He was quick witted and even a little mischievous. But he cared about everyone.â€
+</p>
+  </div>
+</div>
+<div class="footer">
+  <p><a class="@" style="color:#707070;" href="termsandcondition.html">Terms and Condition</a></p>
+</div>
+  
+</body>
+</html>
