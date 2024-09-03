@@ -17,6 +17,8 @@ Technologies Used
 - HTML
 - CSS
 - JavaScript
+- Nodejs
+- PHP
 
 Usage
 
